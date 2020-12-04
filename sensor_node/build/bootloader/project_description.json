@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/Users/samallen/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/Users/samallen/esp/micropohone_sensor/build/bootloader",
+    "config_file":        "/Users/samallen/esp/micropohone_sensor/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.1-dirty",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/Users/samallen/esp/esp-idf/components/efuse/Kconfig;/Users/samallen/esp/esp-idf/components/esp32/Kconfig;/Users/samallen/esp/esp-idf/components/esp_common/Kconfig;/Users/samallen/esp/esp-idf/components/log/Kconfig;/Users/samallen/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/Users/samallen/esp/esp-idf/components/bootloader/Kconfig.projbuild;/Users/samallen/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/Users/samallen/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_rom", "esptool_py", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/Users/samallen/esp/esp-idf/components/bootloader", "/Users/samallen/esp/esp-idf/components/bootloader_support", "/Users/samallen/esp/esp-idf/components/efuse", "/Users/samallen/esp/esp-idf/components/esp32", "/Users/samallen/esp/esp-idf/components/esp_common", "/Users/samallen/esp/esp-idf/components/esp_rom", "/Users/samallen/esp/esp-idf/components/esptool_py", "/Users/samallen/esp/esp-idf/components/log", "/Users/samallen/esp/esp-idf/components/bootloader/subproject/main", "/Users/samallen/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/Users/samallen/esp/esp-idf/components/partition_table", "/Users/samallen/esp/esp-idf/components/soc", "/Users/samallen/esp/esp-idf/components/spi_flash", "/Users/samallen/esp/esp-idf/components/xtensa", "" ]
+}
