@@ -25,16 +25,6 @@ Script used to train and evaluate SVM
 
 ***
 
-**mic/**
-Directory containing microphone data (NOTE: many of the events are invalid and are not included in the final dataset)
-
-***
-
-**pir/**
-Directory containing PIR data (NOTE: many of the events are invalid and are not included in the final dataset)
-
-***
-
 **sensor_node/**
 esp-idf project containing code for sensor_nodes
 
